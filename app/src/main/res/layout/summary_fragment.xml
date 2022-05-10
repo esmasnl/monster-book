@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#201d1d"
+    tools:context=".ui.summary.SummaryFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/back"
+            android:src="@drawable/back" />
+
+        <RelativeLayout
+            android:id="@+id/summary_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_btn"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:id="@+id/summary_book_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@color/red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/summary_book_img"
+                android:text="sjsjdjjdskaokjcssakokocksmcknac"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/circle"
+                android:src="@drawable/icon_plus" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/summary_layout"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dkdkdkkldlslkfsdklöc sdkgnskf sfdgçkdnfşhkçn dsfhndçlmhndfö hbfsd.lmb dsfb sblsdmng gwsçd gçkwsdnb kfblkskcösdlkövlsdkövlksk"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

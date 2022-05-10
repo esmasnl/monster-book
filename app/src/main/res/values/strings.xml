@@ -20,4 +20,10 @@
     <string name="search">Search</string>
     <string name="profile">Profile</string>
     <string name="library">Library</string>
+    <string name="account_settings">Hesap Ayarları</string>
+    <string name="share">Paylaş</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="change_password">Şifre değiştir</string>
+    <string name="mail_change">E-posta değiştir</string>
+    <string name="username_change">Kullanıcı adı değiştir</string>
 </resources>
