@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Monster Book"
+rootProject.name = "MonsterBook"
 include ':app'

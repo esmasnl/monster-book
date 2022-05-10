@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.essel.monsterbook">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.essel.monsterbook" >
 
     <application
         android:allowBackup="true"
@@ -8,15 +9,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MonsterBook">
+        android:theme="@style/Theme.MonsterBook" >
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".home"
+            android:exported="true"
+            android:label="home"
+            android:theme="@style/Theme.MonsterBook.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".LandingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MonsterBook.NoActionBar">
         </activity>
     </application>
 
